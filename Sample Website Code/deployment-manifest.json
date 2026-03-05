@@ -1,0 +1,52 @@
+{
+  "site_name": "DayNight Admin",
+  "entry_page": "index.html",
+  "html_pages": [
+    "about-templatemo.html",
+    "analytics.html",
+    "inbox.html",
+    "index.html",
+    "login.html",
+    "projects.html",
+    "settings.html"
+  ],
+  "static_assets": [
+    "templatemo-daynight-script.js",
+    "templatemo-daynight-style.css"
+  ],
+  "suggested_upload_order": [
+    "templatemo-daynight-script.js",
+    "templatemo-daynight-style.css",
+    "about-templatemo.html",
+    "analytics.html",
+    "inbox.html",
+    "index.html",
+    "login.html",
+    "projects.html",
+    "settings.html"
+  ],
+  "cloudfront_invalidation_paths": [
+    "/",
+    "/about-templatemo.html",
+    "/analytics.html",
+    "/inbox.html",
+    "/index.html",
+    "/login.html",
+    "/projects.html",
+    "/settings.html"
+  ],
+  "upload_rules": [
+    {
+      "pattern": "*.html",
+      "cache_control": "public, max-age=60"
+    },
+    {
+      "pattern": "*.css",
+      "cache_control": "public, max-age=31536000, immutable"
+    },
+    {
+      "pattern": "*.js",
+      "cache_control": "public, max-age=31536000, immutable"
+    }
+  ]
+}
